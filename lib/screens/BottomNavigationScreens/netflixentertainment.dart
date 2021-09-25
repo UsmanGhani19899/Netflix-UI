@@ -55,6 +55,7 @@ class _NetflixPosterCarouselImageState
                 height: MediaQuery.of(context).size.height * 0.69,
                 child: Stack(
                   children: [
+                    //Comment
                     NetflixPosterCarousel(),
                     NetflixPosterBtn(),
                     NetflixPosterAppBar(),
